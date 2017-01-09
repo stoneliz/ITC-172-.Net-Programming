@@ -18,7 +18,7 @@ public partial class _Default : System.Web.UI.Page
     }
     protected void SubmitButton_Click(object sender, EventArgs e)
     {
-
+        GetInfo();
     }
     protected void GetInfo()
     {
@@ -31,15 +31,15 @@ public partial class _Default : System.Web.UI.Page
                 {
                 if (item.Selected)
                  {
-                    if(item.Text.Equals("TenPercent"))
+                    if(item.Text.Equals("Ten Percent"))
                     {
                         tip.TipPercent = .1;
                     }
-                    else if (item.Text.Equals("FifteenPercent"))
+                    else if (item.Text.Equals("Fifteen Percent"))
                     {
                         tip.TipPercent = .15;
                     }
-                    else if (item.Text.Equals("TwentyPercent"))
+                    else if (item.Text.Equals("Twenty Percent"))
                     {
                         tip.TipPercent = .2;
                     }
