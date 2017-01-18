@@ -1,0 +1,19 @@
+﻿body {
+    width: 960px;
+}
+div{
+    width: 30%;
+}
+h1 {
+    color:darkcyan;
+    font-weight:bold;
+    text-align:center;
+}
+#Calendar1{
+    color:magenta;
+    text-align:center;
+}
+#Label1{
+    color:darkorange;
+     font-weight:bold;
+}
