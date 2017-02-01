@@ -1,2 +1,2 @@
-# ITC-172-Assignment1
-Tip Calculator Winter 2017
+# ITC172Assignment3-2017-
+First example from ADO assignment
